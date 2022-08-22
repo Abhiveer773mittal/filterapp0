@@ -1,0 +1,17 @@
+h1{
+    font-size: 30px !important;
+}
+
+canvas{
+    border:1px solid black;
+    border-radius: 10px;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test 
+{
+from{box-shadow: 1px, 1px, 30px, rgb(255, 0, 30);}
+to{ box-shadow: 1px, 1px, 30px, teal;}    
+}
